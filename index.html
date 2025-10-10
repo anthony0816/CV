@@ -38,7 +38,14 @@
           </div>
           <div class="contact-item">
             <i class="fas fa-map-marker-alt"></i>
-            <span>La Habana, UCI, edificio 83 204</span>
+            <span
+              ><a
+                style="color: inherit"
+                href="https://www.google.com/maps/dir//22.8818459,-80.3936397/@22.8815989,-80.393935,197m/data=!3m1!1e3!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+                >Carlos Manuel de Céspedes, #9 Rancho Veloz, Corralillo Villa
+                Clara, Cuba</a
+              ></span
+            >
           </div>
           <div class="contact-item">
             <i class="fab fa-github"></i>
@@ -55,22 +62,22 @@
           <div class="skill-category">
             <h3>Frontend</h3>
             <div class="skill-tags">
-              <span class="skill-tag">React.js</span>
-              <span class="skill-tag">Next.js</span>
-              <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">TypeScript</span>
-              <span class="skill-tag">Tailwind CSS</span>
-              <span class="skill-tag">HTML5</span>
-              <span class="skill-tag">CSS3</span>
+              <span id="react" class="skill-tag">React.js</span>
+              <span id="next" class="skill-tag">Next.js</span>
+              <span id="js" class="skill-tag">JavaScript</span>
+              <span id="ts" class="skill-tag">TypeScript</span>
+              <span id="tailwind" class="skill-tag">Tailwind CSS</span>
+              <span id="html" class="skill-tag">HTML5</span>
+              <span id="css" class="skill-tag">CSS3</span>
             </div>
           </div>
           <div class="skill-category">
             <h3>Backend</h3>
             <div class="skill-tags">
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">Django</span>
-              <span class="skill-tag">Python</span>
-              <span class="skill-tag">SQL</span>
+              <span id="node" class="skill-tag">Node.js</span>
+              <span id="django" class="skill-tag">Django</span>
+              <span id="py" class="skill-tag">Python</span>
+              <span id="sql" class="skill-tag">SQL</span>
             </div>
           </div>
           <div class="skill-category">
@@ -113,7 +120,8 @@
       <!-- Contenido principal -->
       <main class="main-content">
         <!-- Perfil Profesional -->
-        <section class="section">
+
+        <!-- <section class="section">
           <h2>Perfil Profesional</h2>
           <div class="section-content">
             <p>
@@ -126,7 +134,7 @@
               backend robustas.
             </p>
           </div>
-        </section>
+        </section> -->
 
         <!-- Experiencia Profesional -->
         <section class="section">
@@ -134,37 +142,25 @@
           <div class="section-content">
             <div class="experience-item">
               <div class="experience-header">
-                <h3>Desarrollador Full Stack</h3>
-                <span class="date">2023 - Presente</span>
+                <h3>Vertex (UCI)</h3>
+                <span class="date">Enero 2024 - Septiembre-2024</span>
               </div>
-              <!-- <p class="company">Nombre de la Empresa</p> -->
+              <p class="company">Universidad de las Ciencias Informáticas</p>
               <ul class="experience-description">
-                <li>
-                  Desarrollo y mantenimiento de aplicaciones web usando React y
-                  Next.js
-                </li>
-                <li>
-                  Implementación de interfaces responsivas con Tailwind CSS
-                </li>
-                <li>Gestión de bases de datos SQL y desarrollo de APIs</li>
-                <li>
-                  Colaboración en equipos ágiles usando metodologías Scrum
-                </li>
+                <li>Desarrollo full stack</li>
+                <li>Manejo de APIs REST en Django</li>
               </ul>
             </div>
 
             <div class="experience-item">
               <div class="experience-header">
-                <h3>Desarrollador Frontend</h3>
-                <span class="date">2022 - 2023</span>
+                <h3>Sistema de Mantenimiento UCI (SGUM)</h3>
+                <span class="date">Enero 2024 - Septiembre-2024</span>
               </div>
-              <!-- <p class="company">Otra Empresa S.A.</p> -->
+              <p class="company">Universidad de las Ciencias Informáticas</p>
               <ul class="experience-description">
-                <li>Creación de componentes reutilizables en React</li>
-                <li>
-                  Optimización de performance y SEO en aplicaciones Next.js
-                </li>
-                <li>Integración con APIs REST y GraphQL</li>
+                <li>Diseño frontEnd en Django</li>
+                <li>Trabajo en equipo conformado por 4 desarrolladores</li>
               </ul>
             </div>
           </div>
@@ -251,5 +247,8 @@
     </button>
 
     <script src="script.js"></script>
+    <script>
+      src = "loop.js";
+    </script>
   </body>
 </html>
